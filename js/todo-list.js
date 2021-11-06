@@ -22,8 +22,6 @@ function addTodo() {
   if (/^[0-9]+\.+\s/.test(inputText)) {
     id = inputText.split('. ')[0];
     title = inputText.split(/^[0-9]+\.+\s/)[1];
-    console.log(id)
-    console.log(title)
   } else return
 
   createTodo(id, title, completed);
