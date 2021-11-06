@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo list JS</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script defer src="./js/todo-list.js"></script>
+</head>
+
+<body>
+  <!-- todo list -->
+  <div class="todo">
+    <div class="todo__input">
+      <label class="todo__label">Enter task, example "201. feed a cat"</label>
+      <input class="todo__text" type="text">
+      <span class="todo__add"></span>
+    </div>
+    <ul class="todo__items"></ul>
+  </div>
+
+  <!-- modal window -->
+  <div id="modal__window" class="modal__window-background">
+    <div class="modal__window-container">
+
+      <p class="modal__window-text"></p>
+      <a class="close-cross" href="##">close</a>
+    </div>
+  </div>
+</body>
+
+</html>
